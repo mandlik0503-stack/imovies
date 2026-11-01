@@ -7,6 +7,19 @@ A fully responsive, production-ready movie ticket booking platform built with th
 
 ---
 
+## 📁 Project Documentation
+
+Comprehensive technical specifications, MVC architecture breakdown, database entity-relationship models, user journey flows, and team contribution guidelines are maintained in the [`docs/`](docs/) folder:
+
+| Document | Purpose & Scope | Link |
+|---|---|:---:|
+| **🏛️ System Architecture** | Decoupled MVC design pattern, Mongoose schemas, controller logic, API contracts, and request lifecycle | [**docs/architecture.md**](docs/architecture.md) |
+| **👥 Team Roles & Responsibilities** | Functional role breakdowns, component ownership, deliverables, and full project RACI matrix | [**docs/roles.md**](docs/roles.md) |
+| **🗄️ Database ER Diagram** | Mermaid.js schema diagram, field constraints, indexing strategy, and relational mappings | [**docs/diagrams/er-diagram.md**](docs/diagrams/er-diagram.md) |
+| **🧭 User Journey & Flow** | End-to-end user flowchart from onboarding and showtime selection to Razorpay checkout and digital pass | [**docs/diagrams/user-flow.md**](docs/diagrams/user-flow.md) |
+
+---
+
 ## 🎨 Design System
 
 | Element | Hex Code / Specification |
@@ -65,6 +78,12 @@ A fully responsive, production-ready movie ticket booking platform built with th
 
 ```
 imovies/
+├── docs/                       # Project Documentation & Diagrams
+│   ├── diagrams/
+│   │   ├── er-diagram.md       # Database ER diagram & schema relationships
+│   │   └── user-flow.md        # User journey flowcharts & state transitions
+│   ├── architecture.md         # MVC pattern, request lifecycle & component layout
+│   └── roles.md                # Team responsibilities & RACI matrix
 ├── client/                     # React 18 + Vite Frontend
 │   ├── public/
 │   │   └── favicon.svg         # iMovies filmstrip icon
